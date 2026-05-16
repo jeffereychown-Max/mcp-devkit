@@ -23,7 +23,7 @@ Add to `claude_desktop_config.json`:
   "mcpServers": {
     "devkit": {
       "command": "npx",
-      "args": ["-y", "mcp-devkit"]
+      "args": ["-y", "@dpm-tools/mcp-devkit"]
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "manifest_version": "0.1",
-  "name": "mcp-devkit",
+  "name": "@dpm-tools/mcp-devkit",
   "display_name": "Dev Kit",
   "version": "0.1.0",
   "description": "15 zero-config developer utilities: UUID, hash, base64, JWT decode, JSON/YAML, cron explain, timestamp, color, slugify, password, lorem.",
@@ -11,13 +11,19 @@
   },
   "license": "MIT",
   "icon": "icon.png",
-  "categories": ["developer-tools", "utilities"],
+  "categories": [
+    "developer-tools",
+    "utilities"
+  ],
   "server": {
     "type": "node",
     "entry_point": "src/index.ts",
     "mcp_config": {
       "command": "node",
-      "args": ["--experimental-strip-types", "src/index.ts"]
+      "args": [
+        "--experimental-strip-types",
+        "src/index.ts"
+      ]
     }
   },
   "tools_summary": "15 tools across 5 categories: crypto (uuid, hash, hmac), encoding (base64, url, jwt), data (json, yaml), time (cron explain, timestamp), text (color, slugify, password, lorem)."

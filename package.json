@@ -1,5 +1,5 @@
 {
-  "name": "mcp-devkit",
+  "name": "@dpm-tools/mcp-devkit",
   "version": "0.1.0",
   "description": "MCP server with 15 zero-config developer utilities: UUID, hash, base64, JWT, JSON, YAML, cron, timestamp, color, slugify, password, lorem.",
   "type": "module",
@@ -34,5 +34,8 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "yaml": "^2.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
