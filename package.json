@@ -1,0 +1,38 @@
+{
+  "name": "mcp-devkit",
+  "version": "0.1.0",
+  "description": "MCP server with 15 zero-config developer utilities: UUID, hash, base64, JWT, JSON, YAML, cron, timestamp, color, slugify, password, lorem.",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "mcp-devkit": "src/index.ts"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "inspect": "npx @modelcontextprotocol/inspector node --experimental-strip-types src/index.ts"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "developer-tools",
+    "uuid",
+    "hash",
+    "jwt",
+    "base64"
+  ],
+  "license": "MIT",
+  "author": "dpm (digital product mill)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffereychown-Max/mcp-devkit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "yaml": "^2.6.0"
+  }
+}
